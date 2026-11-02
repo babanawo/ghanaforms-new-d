@@ -1,0 +1,169 @@
+{
+  "id": "energy-mining-natural-resources",
+  "title": "Mining, Energy, Petroleum & Forestry Concessions",
+  "description": "The sequential compliance roadmap for natural resource operations—from Minerals Commission mining licences and Forestry timber permits to Energy Commission, NPA downstream, and Petroleum Commission upstream authorisations.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Extractive Industries & Energy Sector Compliance"
+  },
+  "steps": [
+    {
+      "id": "step-1-mincom-mining",
+      "step_number": 1,
+      "title": "Minerals Commission Mining Licence & Cadastral Verification",
+      "why": "Under the Minerals and Mining Act 2006 (Act 703), all mineral exploration, prospecting, and small-scale mining must be validated on the mining cadastre and licensed by MINCOM.",
+      "do_this_when": "Before commencing any mining exploration or operational activity.",
+      "optional": true,
+      "condition_tag": "mining_operations",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-mincom-licence",
+          "agency": "MINCOM",
+          "label": "Minerals Commission Licensing Procedure",
+          "url": "https://www.mincom.gov.gh/license-procedure/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official procedures and statutory fees for mining concessions and permits."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-fc-timber",
+      "step_number": 2,
+      "title": "Forestry Commission Timber Rights & Forest Permit",
+      "why": "Timber harvesting, sawmilling, and forest reserve access require Timber Utilisation Contracts (TUC) and permits under the Timber Resources Management Act.",
+      "do_this_when": "When undertaking timber harvesting, wood processing, or wildlife operations.",
+      "optional": true,
+      "condition_tag": "forestry_timber",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-fc-portal",
+          "agency": "FC",
+          "label": "Forestry Commission Ghana Portal",
+          "url": "https://fcghana.org/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Timber Industry Development Division and Forest Services guidelines."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-energy-commission",
+      "step_number": 3,
+      "title": "Energy Commission Electrical Wiring & Renewable Licences",
+      "why": "Electrical installations, solar PV contractors, and power wholesale licensees must be certified under Energy Commission regulations.",
+      "do_this_when": "Prior to grid interconnection or commercial power generation.",
+      "optional": true,
+      "condition_tag": "electrical_energy",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ec-wiring",
+          "agency": "EC",
+          "label": "Energy Commission Certified Electrical Wiring & Licensing",
+          "url": "https://ghanawiring.com/application-form",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Certified electrical wiring and energy contractor application form."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-npa-petroleum-downstream",
+      "step_number": 4,
+      "title": "National Petroleum Authority (NPA) Downstream Licensing",
+      "why": "Bulk oil distribution companies (BDCs), oil marketing companies (OMCs), and LPG retail outlets must satisfy NPA safety and financial requirements.",
+      "do_this_when": "Before trading, distributing, or retailing refined petroleum products in Ghana.",
+      "optional": true,
+      "condition_tag": "petroleum_downstream",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-npa-licence",
+          "agency": "NPA",
+          "label": "NPA Bulk Import, Distribution & Export Licence Requirements",
+          "url": "https://www.brr.gov.gh/acc/registry/docs/NPA.N._009_Bulk_Import_Distribution_and_Export_Licence_Requirement-NPA.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official licence requirements for petroleum downstream bulk distribution."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-petcom-upstream",
+      "step_number": 5,
+      "title": "Petroleum Commission Upstream Registration & Local Content",
+      "why": "Companies providing drilling, seismic, logistics, and engineering services to offshore oil fields must hold a Petroleum Commission permit and fulfill L.I. 2204 local content requirements.",
+      "do_this_when": "Before contracting with upstream petroleum operators in the Jubilee or TEN fields.",
+      "optional": true,
+      "condition_tag": "upstream_oil",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-petcom-permit",
+          "agency": "PETCOM",
+          "label": "Petroleum Commission Initial Registration Permit",
+          "url": "https://petrocom.gov.gh/initial-registration-permit/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Upstream petroleum joint venture registration and compliance guidelines."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-6-purc-utility-filing",
+      "step_number": 6,
+      "title": "Public Utilities Regulatory Commission (PURC) Filings",
+      "why": "Governs public utility consumer complaints, tariff filings, and independent power distribution compliance.",
+      "do_this_when": "When operating independent utility networks or resolving service grievances.",
+      "optional": true,
+      "condition_tag": "public_utilities",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-purc-portal",
+          "agency": "PURC",
+          "label": "Public Utilities Regulatory Commission Portal",
+          "url": "https://www.purc.com.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Official complaints and utility regulatory submissions portal."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

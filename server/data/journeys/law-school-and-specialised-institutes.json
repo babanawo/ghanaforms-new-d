@@ -1,0 +1,92 @@
+{
+  "id": "law-school-and-specialised-institutes",
+  "title": "Professional Law School & Specialised Institutes",
+  "description": "The sequential roadmap for LL.B graduates and specialised career aspirants to apply to the Ghana School of Law (GSL), Regional Maritime University (RMU), media, film, and peacekeeping institutes.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Legal & Professional Institutional Admissions"
+  },
+  "steps": [
+    {
+      "id": "step-1-ghana-school-of-law",
+      "step_number": 1,
+      "title": "Apply for Professional Law Course at Ghana School of Law",
+      "why": "Administered by the General Legal Council (GLC), completing the Professional Law Course (Barrister-at-Law) is mandatory to be called to the Ghana Bar.",
+      "do_this_when": "Following award of an accredited qualifying Bachelor of Laws (LL.B) degree.",
+      "optional": false,
+      "condition_tag": "law_course",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gsl-admission",
+          "agency": "GSL",
+          "label": "Ghana School of Law Professional Course Online Application",
+          "url": "https://gslaw.edu.gh/admissions/apply-online",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Entrance exam registration and application for the professional law course."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-specialised-institutes",
+      "step_number": 2,
+      "title": "Apply to Specialised Professional Academies & Institutes",
+      "why": "Ghana houses premier sub-regional academies for maritime engineering, journalism, film production, and security studies.",
+      "do_this_when": "When seeking specialised statutory qualifications in navigation, media, or peacekeeping.",
+      "optional": true,
+      "condition_tag": "specialised_studies",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-rmu-apply",
+          "agency": "RMU",
+          "label": "Regional Maritime University Admissions",
+          "url": "https://rmu.edu.gh/apply-to-rmu/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Marine engineering, nautical science, and maritime logistics degrees."
+        },
+        {
+          "id": "opt-gij-apply",
+          "agency": "GIJ",
+          "label": "Ghana Institute of Journalism Admissions",
+          "url": "https://gij.edu.gh/how-to-apply/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Media, journalism, and corporate communication programmes."
+        },
+        {
+          "id": "opt-nafti-apply",
+          "agency": "NAFTI",
+          "label": "National Film and Television Institute Admissions",
+          "url": "https://nafti.edu.gh/how-to-apply/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Film directing, animation, and broadcast production programmes."
+        },
+        {
+          "id": "opt-kaiptc-apply",
+          "agency": "KAIPTC",
+          "label": "Kofi Annan International Peacekeeping Training Centre Courses",
+          "url": "https://lms.kaiptc.org/course/view.php?id=5",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Security sector, conflict management, and international peace operations courses."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

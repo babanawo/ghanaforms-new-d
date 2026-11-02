@@ -1,0 +1,230 @@
+{
+  "id": "commercial-premises-permits",
+  "title": "Commercial Premises, Safety & Regulatory Permits",
+  "description": "The sequential compliance roadmap to license commercial operations, factories, hospitality, and office spaces in Ghana—securing environmental, fire, data protection, and municipal operating clearances.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Environmental & Operational Permitting"
+  },
+  "steps": [
+    {
+      "id": "step-1-epa-permit",
+      "step_number": 1,
+      "title": "Obtain Environmental Permit from EPA",
+      "why": "The Environmental Protection Act 1994 (Act 490) mandates that commercial, industrial, agricultural, or hospitality undertakings obtain an Environmental Permit (EIA or EMP) before physical operations commence.",
+      "do_this_when": "Before constructing or commissioning commercial premises.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-epa-portal",
+          "agency": "EPA",
+          "label": "Environmental Protection Agency Client Portal",
+          "url": "https://client.epa.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Online registration portal for environmental permits, schedules, and assessment forms."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-fire-certificate",
+      "step_number": 2,
+      "title": "Acquire Fire Certificate from GNFS",
+      "why": "Fire Precaution Regulations (L.I. 1724) mandate that all commercial buildings, factories, warehouses, and offices pass safety inspections and hold a valid Ghana National Fire Service Fire Certificate.",
+      "do_this_when": "Upon fitting out premises and installing certified fire extinguishers, alarms, and emergency exits.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gnfs-cert",
+          "agency": "GNFS",
+          "label": "Ghana National Fire Service Fire Certificate Desk",
+          "url": "https://www.gnfs.gov.gh/acquiring-fire-certificatepermit.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official inspection guidelines and requirements for obtaining commercial fire certificates."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-fda-licensing",
+      "step_number": 3,
+      "title": "Facility Hygiene & Premises Licensing (FDA)",
+      "why": "Under the Public Health Act 2012 (Act 851), facilities processing, packaging, storing, or serving food, beverages, cosmetics, pharmaceuticals, or medical devices must pass Good Manufacturing Practice (GMP) audit.",
+      "do_this_when": "If manufacturing, handling, or retailing consumables, cosmetics, or medicines.",
+      "optional": true,
+      "condition_tag": "food_or_health",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-fda-licensing",
+          "agency": "FDA",
+          "label": "FDA Facility Licensing and Premises Registration",
+          "url": "https://fdaghana.gov.gh/services-2/licensing/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Premises licensing requirements, inspection protocols, and application guidelines."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-gsa-certification",
+      "step_number": 4,
+      "title": "Product Certification & Standards Mark (GSA)",
+      "why": "Manufactured goods intended for commercial distribution or export in Ghana must be certified for quality compliance under the Standards Authority Act.",
+      "do_this_when": "When manufacturing products for commercial retail.",
+      "optional": true,
+      "condition_tag": "manufacturing",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gsa-cert",
+          "agency": "GSA",
+          "label": "Ghana Standards Authority Product Certification",
+          "url": "https://gsa.gov.gh/product-certification/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Application and audit for national certification and quality mark issuance."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-dpc-registration",
+      "step_number": 5,
+      "title": "Register as Data Controller with DPC",
+      "why": "The Data Protection Act 2012 (Act 843) makes it mandatory for any commercial entity collecting customer, employee, or partner personal data to be registered with the Data Protection Commission.",
+      "do_this_when": "Prior to processing customer, client, or employee data.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-dpc-reg",
+          "agency": "DPC",
+          "label": "Data Protection Commission Registration Portal",
+          "url": "https://dataprotection.org.gh/registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal for data controllers and data processors in Ghana."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-6-municipal-bop",
+      "step_number": 6,
+      "title": "Obtain Municipal Business Operating Permit (BOP)",
+      "why": "Metropolitan, Municipal, and District Assemblies (MMDAs) require annual operating permits to authorize commercial business activities at your physical address.",
+      "do_this_when": "Upon acquiring your tenancy/lease and before opening doors to the public.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ama-bop-permits",
+          "agency": "AMA",
+          "label": "Accra Metropolitan Assembly BOP Guidelines",
+          "url": "https://ama.gov.gh/doc/permitting-guidelines.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official MMDA rate schedules and annual operating permit guidelines."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-7-nca-telecom",
+      "step_number": 7,
+      "title": "National Communications Authority (NCA) Authorisation",
+      "why": "Enterprises operating radio communications, VSAT networks, broadcasting, or importing telecom transmission equipment require NCA type approval and spectrum licenses.",
+      "do_this_when": "When installing broadcast equipment, commercial radio links, or telecom infrastructure.",
+      "optional": true,
+      "condition_tag": "telecom_broadcast",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nca-licence",
+          "agency": "NCA",
+          "label": "National Communications Authority Online Portal",
+          "url": "https://portal.nca.org.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Telecommunications authorisations, broadcasting licenses, and hardware type approval."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-8-aviation-maritime-transit",
+      "step_number": 8,
+      "title": "Aviation & Maritime Commercial Operations (GCAA & GMA)",
+      "why": "Commercial aircraft, drone operators, shipping vessels, and boat transport operators require statutory inspection and operator clearance from GCAA or the Ghana Maritime Authority.",
+      "do_this_when": "When establishing aviation operations, commercial drone flights, or marine vessel services.",
+      "optional": true,
+      "condition_tag": "aviation_maritime",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gcaa-licence",
+          "agency": "GCAA",
+          "label": "Ghana Civil Aviation Authority Applications",
+          "url": "http://www.gcaa.com.gh/web/?page_id=47",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Pilot, commercial aircraft, and air operator licensing guidelines."
+        },
+        {
+          "id": "opt-gma-registry",
+          "agency": "GMA",
+          "label": "Ghana Maritime Authority Vessel Registration & Certification",
+          "url": "https://ghanamaritime.gov.gh/ship-registry/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Vessel registration, inland watercraft permits, and seafarer certification."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

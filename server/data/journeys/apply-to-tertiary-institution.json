@@ -1,0 +1,350 @@
+{
+  "id": "apply-to-tertiary-institution",
+  "title": "Apply to University & Higher Education in Ghana",
+  "description": "The sequential roadmap for secondary school graduates, transfer students, and mature applicants to verify WAEC credentials, register national biometric identity, and submit admission packs to accredited Ghanaian universities.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Tertiary Education & Academic Admissions"
+  },
+  "steps": [
+    {
+      "id": "step-1-waec-verification",
+      "step_number": 1,
+      "title": "Verify WASSCE / BECE Results with WAEC",
+      "why": "Universities require certified results slips, statement of results, or direct electronic result attestation from the West African Examinations Council.",
+      "do_this_when": "Before purchasing university admission e-vouchers.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-waec-checker",
+          "agency": "WAEC",
+          "label": "WAEC Results Checker and Certificate Request Portal",
+          "url": "https://certificaterequest.waecgh.org/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal for examination verification, statement requests, and certificate confirmation."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-ghana-card-tertiary",
+      "step_number": 2,
+      "title": "Ensure Ghana Card Biometric Details are Up to Date",
+      "why": "Tertiary institutions in Ghana link student admissions, matriculation, and student loans (SLTF) directly to the applicant's Ghana Card PIN.",
+      "do_this_when": "Prior to filling university admission forms.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-tertiary",
+          "agency": "NIA",
+          "label": "National Identification Authority Portal",
+          "url": "https://nia.gov.gh/forms/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Verify your biometric name and date of birth match your WAEC records exactly."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-submit-university-pack",
+      "step_number": 3,
+      "title": "Submit University Admission Application Pack",
+      "why": "Candidates submit their preferred degree programmes and upload certificates through the respective university's accredited portal.",
+      "do_this_when": "During the active admissions window (typically April to November).",
+      "optional": false,
+      "condition_tag": "university_choice",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-uni-ug",
+          "agency": "UG",
+          "label": "University of Ghana Undergraduate Admission Portal",
+          "url": "https://apply.ug.edu.gh/admissions/undergrad/login",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Legon undergraduate degree application portal."
+        },
+        {
+          "id": "opt-uni-knust",
+          "agency": "KNUST",
+          "label": "KNUST Online Admissions Application",
+          "url": "https://apps.knust.edu.gh/admissions/apply",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Kwame Nkrumah University of Science and Technology admissions portal."
+        },
+        {
+          "id": "opt-uni-ucc",
+          "agency": "UCC",
+          "label": "University of Cape Coast Admissions Portal",
+          "url": "https://admissions.ucc.edu.gh/how-to-apply",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Cape Coast degree and diploma application portal."
+        },
+        {
+          "id": "opt-uni-upsa",
+          "agency": "UPSA",
+          "label": "UPSA Undergraduate Application Portal",
+          "url": "https://admissions.upsa.edu.gh/admissions/undergraduate/how-to-apply-undergrad/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "University of Professional Studies, Accra business and law programmes."
+        },
+        {
+          "id": "opt-uni-uew",
+          "agency": "UEW",
+          "label": "University of Education, Winneba Admissions",
+          "url": "https://www.uew.edu.gh/admissions/apply",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Higher education and educational degree programmes."
+        },
+        {
+          "id": "opt-uni-uds",
+          "agency": "UDS",
+          "label": "University for Development Studies Admissions",
+          "url": "https://admissions.uds.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Northern campuses and degree applications."
+        },
+        {
+          "id": "opt-uni-umat",
+          "agency": "UMaT",
+          "label": "University of Mines and Technology Admissions",
+          "url": "https://apply.umat.edu.gh/en",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Mining, engineering, and geosciences degree application."
+        },
+        {
+          "id": "opt-uni-uenr",
+          "agency": "UENR",
+          "label": "University of Energy and Natural Resources Admissions",
+          "url": "https://uenr.edu.gh/admission-details/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Energy and natural resource management programmes."
+        },
+        {
+          "id": "opt-uni-gimpa",
+          "agency": "GIMPA",
+          "label": "GIMPA Public Administration & Management Admissions",
+          "url": "https://ienabler.gimpa.edu.gh/pls/prodi41/gen.gw1pkg.gw1startup?x_processcode=ITS_OAP",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Undergraduate, executive, and graduate management admissions."
+        },
+        {
+          "id": "opt-uni-gctu",
+          "agency": "GCTU",
+          "label": "Ghana Communication Technology University Admissions",
+          "url": "https://site.gctu.edu.gh/how-to-apply",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Information technology and telecommunications programmes."
+        },
+        {
+          "id": "opt-uni-uhas",
+          "agency": "UHAS",
+          "label": "University of Health and Allied Sciences Admissions",
+          "url": "https://admissions.uhas.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Medical, allied health, and nursing degree portal."
+        },
+        {
+          "id": "opt-uni-ashesi",
+          "agency": "ASHESI",
+          "label": "Ashesi University Undergraduate Admissions",
+          "url": "https://ashesi.edu.gh/how-to-apply/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Private university application instructions and scholarship forms."
+        },
+        {
+          "id": "opt-uni-central",
+          "agency": "CENTRAL",
+          "label": "Central University Online Application",
+          "url": "https://central.edu.gh/online",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Undergraduate and graduate degree applications."
+        },
+        {
+          "id": "opt-uni-vvu",
+          "agency": "VVU",
+          "label": "Valley View University Admissions",
+          "url": "https://www.vvu.edu.gh/admissions.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Admissions and programme application portal."
+        },
+        {
+          "id": "opt-uni-regent",
+          "agency": "REGENT",
+          "label": "Regent University College Admissions",
+          "url": "https://regent.edu.gh/apply.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Science and technology undergraduate programmes."
+        },
+        {
+          "id": "opt-uni-acity",
+          "agency": "ACITY",
+          "label": "Academic City University College Admissions",
+          "url": "https://admissions.acity.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Engineering, entrepreneurship, and technology programmes."
+        },
+        {
+          "id": "opt-uni-puc",
+          "agency": "PUC",
+          "label": "Pentecost University Admissions Procedure",
+          "url": "https://pentvars.edu.gh/admissions-procedure/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Professional, business, and theology programmes."
+        },
+        {
+          "id": "opt-uni-cug",
+          "agency": "CUG",
+          "label": "Catholic University of Ghana Admissions",
+          "url": "https://admissions.cug.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Degree admissions application."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-technical-university-pathway",
+      "step_number": 4,
+      "title": "Technical University Higher National Diploma (HND & BTech)",
+      "why": "Candidates seeking practical engineering, technical, and applied arts careers apply directly to accredited Technical Universities across Ghana's regions.",
+      "do_this_when": "If pursuing HND or BTech vocational qualifications.",
+      "optional": true,
+      "condition_tag": "technical_university",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-atu",
+          "agency": "ATU",
+          "label": "Accra Technical University Admissions Portal",
+          "url": "https://application.atu.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "ATU engineering and technology degree application."
+        },
+        {
+          "id": "opt-kstu",
+          "agency": "KsTU",
+          "label": "Kumasi Technical University Admissions Portal",
+          "url": "https://apply.kstu.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "HND and BTech programmes in Ashanti region."
+        },
+        {
+          "id": "opt-ttu",
+          "agency": "TTU",
+          "label": "Takoradi Technical University Admissions",
+          "url": "https://ttu.edu.gh/how-to-apply/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Maritime, petroleum, and engineering technology programmes."
+        },
+        {
+          "id": "opt-htu",
+          "agency": "HTU",
+          "label": "Ho Technical University Admissions",
+          "url": "https://app.htu.edu.gh/admissions/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Hospitality and engineering programmes in Volta region."
+        },
+        {
+          "id": "opt-ktu",
+          "agency": "KTU",
+          "label": "Koforidua Technical University Admissions",
+          "url": "https://admissions.ktu.edu.gh/general/how-to-apply/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "General admissions application."
+        },
+        {
+          "id": "opt-tatu",
+          "agency": "TaTU",
+          "label": "Tamale Technical University Admissions",
+          "url": "https://apply.tatu.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Technical university application in Northern Ghana."
+        },
+        {
+          "id": "opt-btu",
+          "agency": "BTU",
+          "label": "Bolgatanga Technical University Entry Requirements",
+          "url": "https://bolgatu.edu.gh/entry-requirements/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Upper East technical university admissions."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-gtec-accreditation",
+      "step_number": 5,
+      "title": "Verify Programme Accreditation with GTEC",
+      "why": "Ghana Tertiary Education Commission (GTEC) confirms that specific academic programmes and foreign affiliate credentials are valid and accredited under national education law.",
+      "do_this_when": "Before accepting admission offers from private or satellite campuses.",
+      "optional": true,
+      "condition_tag": "verify_accreditation",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gtec",
+          "agency": "GTEC",
+          "label": "Ghana Tertiary Education Commission Portal",
+          "url": "https://gtec.edu.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Official institutional and programme accreditation registry."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

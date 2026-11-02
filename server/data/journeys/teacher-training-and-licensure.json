@@ -1,0 +1,109 @@
+{
+  "id": "teacher-training-and-licensure",
+  "title": "Teacher Education, Licensure & GES Induction",
+  "description": "The sequential roadmap to become a licensed teacher in Ghana—from admission to public Colleges of Education (PRINCOF) to sitting the National Teaching Council (NTC) licensure examination and GES induction.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Educational Licensure & Institutional Governance"
+  },
+  "steps": [
+    {
+      "id": "step-1-princof-admission",
+      "step_number": 1,
+      "title": "Apply via PRINCOF Centralised Admission Portal",
+      "why": "All 46 public Colleges of Education in Ghana process B.Ed degree applications through the centralised portal managed by the Principals of Colleges of Education.",
+      "do_this_when": "During the annual colleges of education application cycle.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-princof-central",
+          "agency": "PRINCOF",
+          "label": "Colleges of Education Centralised Admission Portal",
+          "url": "https://admission.coeportal.edu.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Central application portal for public teacher education colleges."
+        },
+        {
+          "id": "opt-college-ace",
+          "agency": "ACE",
+          "label": "Accra College of Education Application Procedure",
+          "url": "https://acce.edu.gh/online-application-procedure/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Accra College of Education specific admission guidelines."
+        },
+        {
+          "id": "opt-college-wesley",
+          "agency": "WESLEY",
+          "label": "Wesley College of Education Admission Notice",
+          "url": "https://www.wesco.edu.gh/2023-2024-academic-year-admission-notice/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Kumasi teacher education campus admissions notice."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-ntc-licensure-exam",
+      "step_number": 2,
+      "title": "Register for Ghana Teacher Licensure Examination (GTLE)",
+      "why": "The Education Regulatory Bodies Act 2020 (Act 1023) mandates that all trained teachers pass the National Teaching Council licensure exams to be certified to teach.",
+      "do_this_when": "In final year of teacher training or upon graduation.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ntc-portal",
+          "agency": "NTC",
+          "label": "Teacher Portal Ghana (TPG) Licensure Application",
+          "url": "https://tpg.ntc.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official National Teaching Council portal for teacher licensing and exams."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-ges-recruitment-posting",
+      "step_number": 3,
+      "title": "Register for Ghana Education Service (GES) Posting",
+      "why": "Newly certified teachers register with GES to receive school postings, IPPD payroll ID numbers, and staff appointment letters.",
+      "do_this_when": "Following release of GTLE results.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ges-recruitment",
+          "agency": "GES",
+          "label": "GES Teacher Registration & Recruitment Portal",
+          "url": "https://gesrecruitment.gedp.tech",
+          "seed_link_status": "unverified",
+          "verified_at": null,
+          "notes": "Official recruitment and regional posting portal for licensed teachers."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

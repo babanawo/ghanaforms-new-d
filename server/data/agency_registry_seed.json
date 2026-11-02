@@ -1,0 +1,254 @@
+{
+  "schema": "agency-registry/1",
+  "note": "SEED HINTS ONLY. Every URL here came from web searches in one session and has not been crawler-verified. The new engine must verify or replace each one.",
+  "agencies": [
+    {
+      "acronym": "NIA",
+      "name": "National Identification Authority",
+      "category": "Identity",
+      "homepage": null,
+      "services_index_url": null,
+      "portal": {
+        "url": "https://nia.gov.gh/nia-online-registration-portal/",
+        "label": "NIA online registration portal",
+        "requires_account": true,
+        "seed_note": null,
+        "verified_at": null
+      },
+      "services": [
+        {
+          "id": "nia-ghana-card-application-form",
+          "title": "Ghana Card Application Form",
+          "summary": "Official registration form for national biometric ID card issuance",
+          "service_page_url": "https://nia.gov.gh/forms/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": "Forms page lists Form One; online option https://nia.gov.gh/nia-online-registration-portal/",
+          "verified_at": null
+        },
+        {
+          "id": "nia-non-citizen-ghana-card-application",
+          "title": "Non-Citizen Ghana Card Application",
+          "summary": "Registration for foreign nationals resident in Ghana",
+          "service_page_url": "https://nia.gov.gh/service/foreigner-identification-management-systems/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        },
+        {
+          "id": "nia-ghana-card-update-form",
+          "title": "Ghana Card Update Form",
+          "summary": "Request to correct or update biometric ID record details",
+          "service_page_url": "https://nia.gov.gh/service/personal-information-update-service/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        },
+        {
+          "id": "nia-ghana-card-replacement-request",
+          "title": "Ghana Card Replacement Request",
+          "summary": "Replacement of a lost, damaged or stolen Ghana Card",
+          "service_page_url": "https://nia.gov.gh/service/card-replacement-service/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        }
+      ],
+      "seed_hints": true
+    },
+    {
+      "acronym": "GRA",
+      "name": "Ghana Revenue Authority",
+      "category": "Tax",
+      "homepage": null,
+      "services_index_url": null,
+      "portal": {
+        "url": "https://taxpayersportal.com/",
+        "label": "GRA Taxpayers Portal",
+        "requires_account": true,
+        "seed_note": null,
+        "verified_at": null
+      },
+      "services": [
+        {
+          "id": "gra-gra-taxpayers-portal",
+          "title": "GRA Taxpayers Portal",
+          "summary": "Self-service portal for returns, payments and registrations",
+          "service_page_url": "https://gra.gov.gh/taxpayers-portal-app/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": "Portal itself: https://taxpayersportal.com/",
+          "verified_at": null
+        },
+        {
+          "id": "gra-tin-registration",
+          "title": "TIN Registration",
+          "summary": "Individual and business TIN registration, now linked to Ghana Card",
+          "service_page_url": "https://gra.gov.gh/tin/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        },
+        {
+          "id": "gra-tax-clearance-certificate-application",
+          "title": "Tax Clearance Certificate Application",
+          "summary": "Request for certificate of tax compliance",
+          "service_page_url": "https://gra.gov.gh/domestic-tax/tax-clearance-certificate/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": "E-TCC: https://gra.gov.gh/e-services/electronic-tax-clearance-certificate/",
+          "verified_at": null
+        }
+      ],
+      "seed_hints": true
+    },
+    {
+      "acronym": "ORC",
+      "name": "Office of the Registrar of Companies",
+      "category": "Business",
+      "homepage": null,
+      "services_index_url": null,
+      "portal": null,
+      "services": [
+        {
+          "id": "orc-business-name-registration-form-a",
+          "title": "Business Name Registration Form A",
+          "summary": "Sole proprietorship registration form",
+          "service_page_url": "https://orc.gov.gh/service/business-registration/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": "Form A PDF not seen; forms list https://orc.gov.gh/forms.php",
+          "verified_at": null
+        },
+        {
+          "id": "orc-company-registration-form-3",
+          "title": "Company Registration Form 3",
+          "summary": "Incorporation pack for a private limited company",
+          "service_page_url": null,
+          "form_pdf_url": "https://www.brr.gov.gh/acc/registry/docs/RGD-Revised%20Form%203-005.pdf",
+          "seed_link_status": "deep",
+          "seed_note": "Hosted on brr.gov.gh; may be an older revision",
+          "verified_at": null
+        },
+        {
+          "id": "orc-company-registration-form-3b",
+          "title": "Company Registration Form 3B",
+          "summary": "Incorporation pack for a company limited by guarantee (NGOs, associations)",
+          "service_page_url": null,
+          "form_pdf_url": "https://www.brr.gov.gh/acc/registry/docs/eForm%203B-CLG-Registration.pdf",
+          "seed_link_status": "deep",
+          "seed_note": "Hosted on brr.gov.gh",
+          "verified_at": null
+        },
+        {
+          "id": "orc-beneficial-ownership-declaration",
+          "title": "Beneficial Ownership Declaration",
+          "summary": "Filing of beneficial owner information",
+          "service_page_url": "https://orc.gov.gh/forms.php",
+          "form_pdf_url": null,
+          "seed_link_status": "homepage_only",
+          "seed_note": "Only individual PDFs seen, e.g. https://orc.gov.gh/Forms/BO/BO3%20Listed%20Company%20BO%20Form.pdf",
+          "verified_at": null
+        },
+        {
+          "id": "orc-company-name-search-and-reservation",
+          "title": "Company Name Search and Reservation",
+          "summary": "Check availability and reserve a business name",
+          "service_page_url": "https://www.orc.gov.gh/service-name-search.php",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        },
+        {
+          "id": "orc-external-company-registration",
+          "title": "External Company Registration",
+          "summary": "Registration of a foreign company's Ghana branch",
+          "service_page_url": "https://orc.gov.gh/service/external-company/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        }
+      ],
+      "seed_hints": true
+    },
+    {
+      "acronym": "SSNIT",
+      "name": "Social Security and National Insurance Trust",
+      "category": "Business",
+      "homepage": null,
+      "services_index_url": null,
+      "portal": null,
+      "services": [
+        {
+          "id": "ssnit-ssnit-employer-registration",
+          "title": "SSNIT Employer Registration",
+          "summary": "Registration of employers for pension contributions",
+          "service_page_url": "https://www.ssnit.org.gh/become-an-employer/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": null,
+          "verified_at": null
+        },
+        {
+          "id": "ssnit-ssnit-employee-enrolment",
+          "title": "SSNIT Employee Enrolment",
+          "summary": "Enrolment of a worker into the basic national pension scheme",
+          "service_page_url": null,
+          "form_pdf_url": "https://ssnit.org.gh/wp-content/uploads/2024/04/ISS1A.pdf",
+          "seed_link_status": "deep",
+          "seed_note": "iSS1A (with GhanaCard); without: https://ssnit.org.gh/wp-content/uploads/2024/04/ISS1B.pdf",
+          "verified_at": null
+        }
+      ],
+      "seed_hints": true
+    },
+    {
+      "acronym": "GIPC",
+      "name": "Ghana Investment Promotion Centre",
+      "category": "Business",
+      "homepage": null,
+      "services_index_url": null,
+      "portal": null,
+      "services": [
+        {
+          "id": "gipc-gipc-investment-registration",
+          "title": "GIPC Investment Registration",
+          "summary": "Registration of foreign investment and enterprise",
+          "service_page_url": "https://gipc.gov.gh/gipc-registration/",
+          "form_pdf_url": null,
+          "seed_link_status": "deep",
+          "seed_note": "Renewal form: https://www.gipc.gov.gh/wp-content/uploads/2023/04/Renewal-Form-RRC1.pdf",
+          "verified_at": null
+        }
+      ],
+      "seed_hints": true
+    },
+    {
+      "acronym": "AMA",
+      "name": "Accra Metropolitan Assembly",
+      "category": "Local Government",
+      "homepage": null,
+      "services_index_url": null,
+      "portal": null,
+      "services": [
+        {
+          "id": "ama-ama-business-operating-permit",
+          "title": "AMA Business Operating Permit",
+          "summary": "Annual operating permit for businesses",
+          "service_page_url": null,
+          "form_pdf_url": "https://ama.gov.gh/doc/permitting-guidelines.pdf",
+          "seed_link_status": "deep",
+          "seed_note": "Guidelines PDF; no dedicated BOP page",
+          "verified_at": null
+        }
+      ],
+      "seed_hints": true
+    }
+  ]
+}

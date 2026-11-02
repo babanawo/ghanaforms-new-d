@@ -1,0 +1,169 @@
+{
+  "id": "register-land-title",
+  "title": "Acquire and Register Land Title in Ghana",
+  "description": "The legal sequential roadmap to verify ownership, survey boundaries, assess stamp duties, and obtain an official Land Title Certificate from the Lands Commission.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Real Estate & Land Title Due Diligence"
+  },
+  "steps": [
+    {
+      "id": "step-1-official-search",
+      "step_number": 1,
+      "title": "Conduct Consolidated Search at Lands Commission",
+      "why": "Verifies true ownership, confirms whether the parcel is state land, stool land, or family land, and ensures there are no conflicting registrations or mortgages.",
+      "do_this_when": "Before making any financial commitment or signing purchase agreements with landowners.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-lc-search",
+          "agency": "LC",
+          "label": "Lands Commission Consolidated Search Request",
+          "url": "https://www.lc.gov.gh/services/consolidated-search/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official search application portal across Land Registration, Survey & Mapping, and Public & Vested Lands Divisions."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-site-plan-approval",
+      "step_number": 2,
+      "title": "Cadastral Survey & Site Plan Approval",
+      "why": "A licensed surveyor must demarcate the exact GPS boundaries and have the site plan formally countersigned and approved by the Regional Director of Surveys.",
+      "do_this_when": "Immediately following search clearance and execution of the indenture/lease agreement.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-lc-site-plan",
+          "agency": "LC",
+          "label": "Lands Commission Site Plan and Survey Approval",
+          "url": "https://www.lc.gov.gh/services/plan-approval/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Submission for cadastral site plan examination and official barcode issuance."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-stamp-duty",
+      "step_number": 3,
+      "title": "Stamp Duty Assessment & Payment at GRA",
+      "why": "Under the Stamp Duty Act 2005 (Act 689), deeds of conveyance or leases must be assessed and stamped to be legally admissible in Ghanaian courts and registries.",
+      "do_this_when": "After the site plan is approved and signed by both parties.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "all",
+      "options": [
+        {
+          "id": "opt-gra-stamp-duty",
+          "agency": "GRA",
+          "label": "GRA Stamp Duty Assessment Portal",
+          "url": "https://gra.gov.gh/domestic-tax/tax-types/stamp-duty/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Valuation and assessment guidelines on land conveyance instruments."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-deed-registration",
+      "step_number": 4,
+      "title": "Register Deed at Lands Commission",
+      "why": "Records the stamped conveyance in the Deeds Registry to establish legal notice and priority of claim.",
+      "do_this_when": "Following payment and affixing of the GRA stamp duty endorsement.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-lc-deed-reg",
+          "agency": "LC",
+          "label": "Lands Commission Deed Registration Portal",
+          "url": "https://www.lc.gov.gh/services/deed-registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official deed submission desk with stamp duty verification."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-title-registration",
+      "step_number": 5,
+      "title": "Apply for Land Title Certificate (Registration Districts)",
+      "why": "In declared title registration districts (such as Greater Accra and parts of Ashanti Region), obtaining a Land Title Certificate grants an indefeasible, state-guaranteed title.",
+      "do_this_when": "After deed recording, subject to statutory 21-day public newspaper notice.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-lc-title-reg",
+          "agency": "LC",
+          "label": "Land Title Registration Services",
+          "url": "https://www.lc.gov.gh/services/registration-title/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Application for Yellow Card title certification and publication."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-6-building-permit",
+      "step_number": 6,
+      "title": "Secure District Assembly Building Permit",
+      "why": "The Local Governance Act mandates obtaining building permit approval before breaking ground or undertaking any civil construction.",
+      "do_this_when": "Prior to any physical construction or groundbreaking on the parcel.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ama-building-permit",
+          "agency": "AMA",
+          "label": "Accra Metropolitan Assembly Building Permit Guidelines",
+          "url": "https://ama.gov.gh/building-permit.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Development permitting checklist for architectural, structural, and EPA approval."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

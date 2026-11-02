@@ -1,0 +1,143 @@
+{
+  "id": "national-service-posting-and-clearance",
+  "title": "National Service Registration, Posting & Clearance",
+  "description": "The mandatory post-graduate roadmap under Act 426 to register your NSS PIN, verify biometric identity, secure regional user postings, submit monthly assessment forms, and obtain the National Service Certificate.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Civic & Statutory Service Advisory"
+  },
+  "steps": [
+    {
+      "id": "step-1-nss-ghana-card",
+      "step_number": 1,
+      "title": "Link Biometric Ghana Card with NIA",
+      "why": "The National Service Authority (NSA) mandates biometric matching of the graduate's Ghana Card to prevent identity fraud and ensure monthly allowance disbursements.",
+      "do_this_when": "Before purchasing an NSS pin code or initiating portal registration.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-nss",
+          "agency": "NIA",
+          "label": "National Identification Authority Portal",
+          "url": "https://nia.gov.gh/forms/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Confirm your Ghana Card pin matches your tertiary graduate record."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-nss-portal-registration",
+      "step_number": 2,
+      "title": "NSS PIN Code Activation & Online Registration",
+      "why": "All graduates must activate their institutional PIN code and complete their detailed biographical and regional preference submissions on the NSA portal.",
+      "do_this_when": "Once the National Service Authority opens the annual enrollment window.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nss-portal",
+          "agency": "NSA",
+          "label": "National Service Authority Registration Portal",
+          "url": "https://portal.nss.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal to activate NSS pin code and complete registration."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-posting-endorsement",
+      "step_number": 3,
+      "title": "Check Posting & Secure User Agency Endorsement",
+      "why": "Personnel must download appointment letters, present them to their assigned user agency (school, hospital, ministry, or private firm) for endorsement, and submit them at the NSA regional center.",
+      "do_this_when": "Following national release of annual postings.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nss-posting",
+          "agency": "NSA",
+          "label": "NSA Dashboard Posting Check",
+          "url": "https://portal.nss.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Download official posting letters and regional validation forms."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-monthly-duty-assessment",
+      "step_number": 4,
+      "title": "Submit Monthly Duty Assessment Sheets",
+      "why": "Supervisors must sign the monthly performance and attendance assessment to authorize payment of monthly service personnel allowances.",
+      "do_this_when": "By the 15th of each active service month.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nss-monthly",
+          "agency": "NSA",
+          "label": "Monthly Evaluation Portal",
+          "url": "https://portal.nss.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Upload signed supervisor duty assessment form."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-annual-clearance-certificate",
+      "step_number": 5,
+      "title": "Final Annual Clearance & Certificate Collection",
+      "why": "Upon completing 12 calendar months of statutory service, personnel obtain the National Service Certificate required for all formal employment and public sector postings in Ghana.",
+      "do_this_when": "At the conclusion of the service year.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nss-cert",
+          "agency": "NSA",
+          "label": "NSS Certificate Verification & Dispatch",
+          "url": "https://portal.nss.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Request and track delivery of your authenticated National Service Certificate."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

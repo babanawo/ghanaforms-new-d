@@ -1,0 +1,118 @@
+{
+  "id": "nursing-and-health-training-admissions",
+  "title": "Nursing, Midwifery & Health Training Colleges Admission",
+  "description": "The sequential roadmap to apply to public and military nursing colleges in Ghana—from Ministry of Health voucher purchasing to college entrance interviews and Nursing & Midwifery Council (NMC) student indexing.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Healthcare & Nursing Academic Admissions"
+  },
+  "steps": [
+    {
+      "id": "step-1-hti-voucher-portal",
+      "step_number": 1,
+      "title": "Purchase Voucher & Apply on Ministry of Health HTI Portal",
+      "why": "The Ministry of Health centralised portal coordinates all public applications for registered general nursing, midwifery, community health, and allied nursing diplomas.",
+      "do_this_when": "During the official MOH application window (typically February to June).",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-moh-hti",
+          "agency": "MOH",
+          "label": "Health Training Institutions (HTI) Admission Portal",
+          "url": "https://healthtraining.gov.gh",
+          "seed_link_status": "unverified",
+          "verified_at": null,
+          "notes": "Official portal for nursing and midwifery training college admission vouchers."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-select-nursing-college",
+      "step_number": 2,
+      "title": "Select Preferred Nursing & Midwifery Training College",
+      "why": "Applicants must select their primary and secondary institutions and review specific campus interview requirements and cut-off grades.",
+      "do_this_when": "When filling in college preferences on the HTI portal.",
+      "optional": false,
+      "condition_tag": "college_choice",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nursing-korlebu",
+          "agency": "KBNMTC",
+          "label": "Korle-Bu Nurses and Midwives Training College",
+          "url": "https://nmtckb.edu.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Admissions requirements for Korle-Bu training college."
+        },
+        {
+          "id": "opt-nursing-37military",
+          "agency": "37MNTC",
+          "label": "37 Military Hospital Nursing and Midwifery Training College",
+          "url": "https://37nmtc.com/requirements.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Military hospital nursing diploma requirements and interview guidelines."
+        },
+        {
+          "id": "opt-nursing-pantang",
+          "agency": "PNMTC",
+          "label": "Pantang Nurses and Midwives Training College",
+          "url": "https://www.nmtcp.edu.gh/admissions",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "General and psychiatric nursing programmes."
+        },
+        {
+          "id": "opt-nursing-koforidua",
+          "agency": "KNMTC",
+          "label": "Koforidua Nurses and Midwives Training College",
+          "url": "https://www.nmtckdu.edu.gh/index.php/home/admissions_info",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Eastern Region nursing and midwifery admissions information."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-nmc-student-indexing",
+      "step_number": 3,
+      "title": "Complete Nursing & Midwifery Council (NMC) Student Indexing",
+      "why": "Upon admission, every student nurse and midwife must be formally indexed by the Nursing and Midwifery Council of Ghana to be registered for council examinations.",
+      "do_this_when": "During the first semester of matriculation.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nmc-indexing",
+          "agency": "NMC",
+          "label": "Nursing and Midwifery Council Student Indexing Portal",
+          "url": "https://www.nmc.gov.gh/web/indexing",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official NMC student indexing form and documentation verification."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

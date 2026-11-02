@@ -1,0 +1,135 @@
+{
+  "id": "healthcare-practitioners-licensing",
+  "title": "Healthcare Professional Licensing & Retention",
+  "description": "The mandatory licensing pathway for medical doctors, dentists, pharmacists, nurses, and allied health professionals to register with statutory regulatory councils and renew annual practice retention licences.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Healthcare Regulatory & Clinical Practice Advisory"
+  },
+  "steps": [
+    {
+      "id": "step-1-mdc-doctors-dentists",
+      "step_number": 1,
+      "title": "Medical & Dental Council (MDC) Practitioner Licensing",
+      "why": "Under Part II of the Health Professions Regulatory Bodies Act 2013 (Act 857), medical doctors and dental surgeons must obtain provisional and full registration to practice in Ghana.",
+      "do_this_when": "Following medical school housemanship or when foreign doctors seek Ghana certification.",
+      "optional": true,
+      "condition_tag": "doctor_dentist",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-mdc-reg",
+          "agency": "MDC",
+          "label": "Medical and Dental Council Registration Requirements",
+          "url": "https://mdcghana.org/docs/REQUIREMENTS%20FOR%20FULL%20REGISTRATION.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official requirements guidelines for provisional and permanent registration."
+        },
+        {
+          "id": "opt-mdc-retention",
+          "agency": "MDC",
+          "label": "MDC Annual Practice Licence Retention Form",
+          "url": "https://www.mdcghana.org/renewalform/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Annual practising licence retention for medical practitioners."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-pcg-pharmacy",
+      "step_number": 2,
+      "title": "Pharmacy Council Pharmacist & Premises Licensing",
+      "why": "Pharmacists, over-the-counter medicine practitioners, and wholesale premises must hold statutory registration and annual premises licences.",
+      "do_this_when": "Upon completing pharmacy internship or opening community/wholesale pharmacy facilities.",
+      "optional": true,
+      "condition_tag": "pharmacist",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-pcg-reg",
+          "agency": "PCG",
+          "label": "Pharmacy Council Downloads & Premises Registration",
+          "url": "https://pcghana.org/downloads/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Downloads for practitioner registration and online pharmacy premises renewals."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-ahpc-allied-health",
+      "step_number": 3,
+      "title": "Allied Health Professions Council (AHPC) Registration",
+      "why": "Medical laboratory scientists, physiotherapists, radiographers, and dietitians must be certified under Act 857.",
+      "do_this_when": "Following graduation and completion of mandatory internship.",
+      "optional": true,
+      "condition_tag": "allied_health",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ahpc-services",
+          "agency": "AHPC",
+          "label": "Allied Health Professions Council Services & Licensing",
+          "url": "https://ahpc.gov.gh/services/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Registration and annual PIN renewal for allied health professionals."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-nmc-nurse-pin",
+      "step_number": 4,
+      "title": "Nursing & Midwifery Council Licensure Examination & PIN",
+      "why": "Candidates must pass the NMC professional licensing examination to receive a professional PIN to practice clinically in health facilities.",
+      "do_this_when": "Following completion of nursing diploma or degree.",
+      "optional": true,
+      "condition_tag": "nurse_midwife",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nmc-exam",
+          "agency": "NMC",
+          "label": "NMC Online Licensing Examination Portal",
+          "url": "https://www.nmc.gov.gh/web/online-licensing-examination",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Licensing examination application portal."
+        },
+        {
+          "id": "opt-nmc-pin",
+          "agency": "NMC",
+          "label": "NMC Annual PIN Renewal Portal",
+          "url": "https://www.nmc.gov.gh/web/ourservices-mobile/registration-mobile/story/license-renewal",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Annual nurse and midwife practising PIN renewal."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

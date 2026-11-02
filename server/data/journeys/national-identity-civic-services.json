@@ -1,0 +1,170 @@
+{
+  "id": "national-identity-civic-services",
+  "title": "National Identity, Vital Records & Civic Services",
+  "description": "The sequential citizen roadmap to obtain your Ghana Card, register vital birth and death certificates, register on the national voters register, enroll in NHIS, and access unified payments on Ghana.gov.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Citizen Documentation & Civic Registration"
+  },
+  "steps": [
+    {
+      "id": "step-1-birth-registration",
+      "step_number": 1,
+      "title": "Register Birth or Death Records with BDR",
+      "why": "The Registration of Births and Deaths Act mandates official registration to secure biometric certified birth certificates, the foundational proof of Ghanaian citizenship.",
+      "do_this_when": "Within the statutory window following a birth or when replacing lost certificates.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-bdr-birth-civic",
+          "agency": "BDR",
+          "label": "Birth Registration Portal",
+          "url": "https://bdr.gov.gh/birth-registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Application for birth certification and search verification."
+        },
+        {
+          "id": "opt-bdr-death",
+          "agency": "BDR",
+          "label": "Death Registration Form & Processing",
+          "url": "https://bdr.gov.gh/birth-registration-2/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official death registry and burial permit processing."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-ghana-card-issuance",
+      "step_number": 2,
+      "title": "Enroll for Biometric National ID (Ghana Card)",
+      "why": "The National Identity Register Act mandates the Ghana Card as the exclusive national ID for banking, SIM registration, taxation, passport issuance, and civil services.",
+      "do_this_when": "At any NIA district or regional registration center.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-civic-card",
+          "agency": "NIA",
+          "label": "Ghana Card Application Forms & Requirements",
+          "url": "https://nia.gov.gh/forms/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Form One download and district registration guidelines."
+        },
+        {
+          "id": "opt-nia-replace",
+          "agency": "NIA",
+          "label": "Ghana Card Replacement Request Service",
+          "url": "https://nia.gov.gh/service/card-replacement-service/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Replace lost, damaged, or stolen national identity cards."
+        },
+        {
+          "id": "opt-nia-update-data",
+          "agency": "NIA",
+          "label": "Ghana Card Data Update & Correction Service",
+          "url": "https://nia.gov.gh/service/personal-information-update-service/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Correct spelling errors, marital name changes, or address updates."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-nhis-enrollment",
+      "step_number": 3,
+      "title": "Enroll in National Health Insurance Scheme (NHIS)",
+      "why": "Provides subsidised healthcare and essential drug access at accredited hospitals, polyclinics, and pharmacies across all Ghanaian regions.",
+      "do_this_when": "At any age; link directly to your Ghana Card for seamless membership verification.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nhia-enroll",
+          "agency": "NHIA",
+          "label": "NHIS Membership Registration & Mobile Renewal",
+          "url": "https://www.nhis.gov.gh/membership",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Online membership guide and shortcode renewal portal."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-voter-registration",
+      "step_number": 4,
+      "title": "Register on the National Voters Register (EC)",
+      "why": "Article 42 of the 1992 Constitution empowers all eligible citizens aged 18 and above of sound mind to be registered on the electoral roll to vote in national elections.",
+      "do_this_when": "During designated Electoral Commission limited registration exercises.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ec-voter",
+          "agency": "EC",
+          "label": "Electoral Commission Voter Registration Form 1",
+          "url": "https://ec.gov.gh/wp-content/uploads/2020/11/VOTER-REGISTRATION-FORM-1.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official Form 1A application for registration on the national voters register."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-ghana-gov-portal",
+      "step_number": 5,
+      "title": "Activate Ghana.gov Single Sign-On Services Portal",
+      "why": "Unified digital service and payment platform for all ministries, departments, and agencies in Ghana, allowing single sign-on access to government services.",
+      "do_this_when": "For paying government statutory fees, assembly permits, or verifying documents.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-govgh-portal",
+          "agency": "GOVGH",
+          "label": "Ghana.gov Government Services & Payments Portal",
+          "url": "https://www.ghana.gov.gh/login/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Unified digital portal for government e-services and cashless payments."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

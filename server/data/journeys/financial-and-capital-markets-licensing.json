@@ -1,0 +1,143 @@
+{
+  "id": "financial-and-capital-markets-licensing",
+  "title": "Financial Institutions, Capital Markets & Insurance Licensing",
+  "description": "The sequential regulatory roadmap for banks, fintechs, fund managers, insurance brokers, and pension trustees to secure operating authorisations from the Bank of Ghana (BOG), SEC, NIC, and NPRA.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Financial Services & Regulatory Authorisations"
+  },
+  "steps": [
+    {
+      "id": "step-1-bog-licensing",
+      "step_number": 1,
+      "title": "Bank of Ghana (BOG) Banking & Payment Systems Licensing",
+      "why": "Banks, specialized deposit-taking institutions (SDIs), microfinances, and Dedicated Electronic Money Issuers (fintechs) must satisfy capital adequacy and receive BOG licensing under Act 930.",
+      "do_this_when": "Before operating any deposit-taking, foreign exchange bureau, or mobile payment services.",
+      "optional": false,
+      "condition_tag": "banking_fintech",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-bog-licensing",
+          "agency": "BOG",
+          "label": "Bank of Ghana Licensing Approval & Requirements Portal",
+          "url": "https://www.bog.gov.gh/downloads/supervision-and-regulation-downloads/licensing-approval-requirements/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official supervisory and regulatory licensing download requirements."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-sec-capital-markets",
+      "step_number": 2,
+      "title": "Securities & Exchange Commission (SEC) Operator Licensing",
+      "why": "Fund managers, broker-dealers, investment advisers, and mutual funds must obtain market operator licences under the Securities Industry Act 2016 (Act 929).",
+      "do_this_when": "Before managing public investment capital or trading securities.",
+      "optional": true,
+      "condition_tag": "capital_markets",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-sec-forms",
+          "agency": "SEC",
+          "label": "SEC License Application Forms (SECFORM1)",
+          "url": "https://sec.gov.gh/wp-content/uploads/License-Application-Forms/SECFORM1.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Direct application form for capital market operators."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-nic-insurance",
+      "step_number": 3,
+      "title": "National Insurance Commission (NIC) Insurer & Broker Licensing",
+      "why": "Under the Insurance Act 2021 (Act 1061), insurance companies, reinsurance firms, brokers, and loss adjusters must be licensed by the NIC.",
+      "do_this_when": "When establishing insurance underwriting or broking entities.",
+      "optional": true,
+      "condition_tag": "insurance",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nic-licensing",
+          "agency": "NIC",
+          "label": "National Insurance Commission Licensing Requirements",
+          "url": "https://nic.gov.gh/regulation/licensing/requirements",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Regulatory requirements for insurers, brokers, and agents."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-npra-pensions",
+      "step_number": 4,
+      "title": "NPRA Pension Trustee & Scheme Registration",
+      "why": "Corporate pension trustees, fund custodians, and Tier 2/3 occupational pension schemes must be registered under the National Pensions Act (Act 766).",
+      "do_this_when": "When registering occupational or personal pension schemes.",
+      "optional": true,
+      "condition_tag": "pension_scheme",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-npra-forms",
+          "agency": "NPRA",
+          "label": "NPRA Scheme and Trustee Registration Forms",
+          "url": "https://npra.gov.gh/forms/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Application downloads for corporate trustees, custodians, and schemes."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-icag-accountants",
+      "step_number": 5,
+      "title": "ICAG Practising Certificate & Audit Firm Registration",
+      "why": "Auditors and accounting firms signing statutory company financial statements must hold an active practising licence issued by the Institute of Chartered Accountants Ghana.",
+      "do_this_when": "For professional accountants offering audit and statutory accounting services.",
+      "optional": true,
+      "condition_tag": "auditor_accounting",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-icag-licence",
+          "agency": "ICAG",
+          "label": "ICAG Acquisition of Practising Licence",
+          "url": "https://www.icagh.org/acquisition-of-practising-licence/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Requirements and application for professional accountancy practising licence."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

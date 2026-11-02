@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 220" width="100%" height="100%">
+  <!-- Left Emblem: Document with Ghana National Waves -->
+  <g id="logo-emblem" transform="translate(15, 15)">
+    <!-- Outer Green Document Spine & Right Arc -->
+    <path d="M10 10 H85 C108 10 125 28 125 50 C125 64 118 76 106 85 C122 96 128 116 128 142 C114 135 96 134 78 134 H10 Z" fill="#0F6837"/>
+    
+    <!-- Top White Document Cutout -->
+    <path d="M30 30 H75 C94 30 105 38 105 50 C105 60 96 68 85 71 H30 Z" fill="#FFFFFF"/>
+    
+    <!-- Red Swoosh -->
+    <path d="M30 54 C54 54 94 51 126 78 C110 62 84 48 48 48 H30 Z" fill="#C8102E"/>
+    
+    <!-- Yellow / Gold Swoosh -->
+    <path d="M30 84 C56 84 96 84 126 111 C110 95 84 80 48 80 H30 Z" fill="#F5A800"/>
+    
+    <!-- Bottom White Cutout -->
+    <path d="M30 98 H75 C95 98 106 106 106 120 C88 118 62 118 30 118 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark: GHANA FORMS -->
+  <g id="logo-text" transform="translate(170, 20)">
+    <text x="0" y="75" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="82" fill="#181A22" letter-spacing="-2">GHANA</text>
+    <text x="0" y="155" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="82" fill="#181A22" letter-spacing="-2">FORMS</text>
+  </g>
+</svg>

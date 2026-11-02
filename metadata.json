@@ -1,0 +1,6 @@
+{
+  "name": "Ghana Guide",
+  "description": "Find the right forms, understand the requirements, and know what to do next.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

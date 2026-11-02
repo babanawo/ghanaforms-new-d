@@ -1,0 +1,145 @@
+{
+  "id": "metropolitan-permits-and-civic-records",
+  "title": "Metropolitan Assembly Permits & Civic Records",
+  "description": "The sequential local government roadmap for regional metropolitan assemblies (Accra, Kumasi, Tamale, Sekondi-Takoradi, LaDMA, Ga East)—to secure Business Operating Permits, building permits, and register marriages.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Local Governance & Municipal Assembly Permitting"
+  },
+  "steps": [
+    {
+      "id": "step-1-local-bop",
+      "step_number": 1,
+      "title": "Select District Assembly & Obtain Business Operating Permit (BOP)",
+      "why": "Every commercial, retail, or industrial enterprise operating within a Metropolitan, Municipal, or District Assembly (MMDA) must pay annual operating fees and display a valid BOP decal.",
+      "do_this_when": "Upon securing physical office, shop, or factory premises in your district.",
+      "optional": false,
+      "condition_tag": "assembly_choice",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-bop-ama",
+          "agency": "AMA",
+          "label": "Accra Metropolitan Assembly BOP Guidelines",
+          "url": "https://ama.gov.gh/doc/permitting-guidelines.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Accra business operating permit schedules and guidelines."
+        },
+        {
+          "id": "opt-bop-kma",
+          "agency": "KMA",
+          "label": "Kumasi Metropolitan Assembly BOP Portal",
+          "url": "https://kma.gov.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Ashanti regional metropolitan business operating permits."
+        },
+        {
+          "id": "opt-bop-tma",
+          "agency": "TMA",
+          "label": "Tamale Metropolitan Assembly Business Operating Permit",
+          "url": "https://tma.gov.gh/index.php/business-operating-permit/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Northern regional commercial operating permits."
+        },
+        {
+          "id": "opt-bop-stma",
+          "agency": "STMA",
+          "label": "Sekondi-Takoradi Metropolitan Assembly BOP",
+          "url": "https://www.stma.gov.gh/business-operating-permit",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Western regional oil city operating permits."
+        },
+        {
+          "id": "opt-bop-ladma",
+          "agency": "LADMA",
+          "label": "La Dade-Kotopon Municipal Assembly Permitting",
+          "url": "https://ladma.gov.gh/?page_id=71",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "LaDMA commercial permit forms and downloads."
+        },
+        {
+          "id": "opt-bop-gema",
+          "agency": "GEMA",
+          "label": "Ga East Municipal Assembly Permitting Portal",
+          "url": "https://ghanadistricts.gov.gh/",
+          "seed_link_status": "not_found",
+          "verified_at": null,
+          "notes": "Ga East municipal assembly permit portal via GhanaDistricts."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-assembly-building-permit",
+      "step_number": 2,
+      "title": "Apply for Development / Building Permit",
+      "why": "Local assembly spatial planning and engineering departments must inspect architectural drawings, structural calculations, and site plans before issuing building permits.",
+      "do_this_when": "Prior to any physical construction, renovation, or alteration.",
+      "optional": true,
+      "condition_tag": "civil_construction",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-build-ama",
+          "agency": "AMA",
+          "label": "Accra Metropolitan Building Permit Application",
+          "url": "https://ama.gov.gh/building-permit.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Building permit checklist and spatial planning submission in Accra."
+        },
+        {
+          "id": "opt-build-kma",
+          "agency": "KMA",
+          "label": "Kumasi Metropolitan Building Permit Portal",
+          "url": "https://kma.gov.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Kumasi spatial planning and building permits."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-marriage-registration",
+      "step_number": 3,
+      "title": "Register Customary or Ordinance Marriage",
+      "why": "The Marriages Act (Cap 127) empowers district assemblies to issue marriage licences, publish 21-day banns, officiate ordinance marriages, and register customary unions.",
+      "do_this_when": "When registering a legal marriage or obtaining statutory marriage certificates.",
+      "optional": true,
+      "condition_tag": "marriage_service",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-marriage-ama",
+          "agency": "AMA",
+          "label": "AMA Marriage Registration & Banns Publication",
+          "url": "https://www.ama.gov.gh/marriage-registration.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Customary and ordinance marriage registration at the City Hall in Accra."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

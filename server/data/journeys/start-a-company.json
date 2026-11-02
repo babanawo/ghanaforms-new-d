@@ -1,0 +1,275 @@
+{
+  "id": "start-a-company",
+  "title": "Start a Company in Ghana",
+  "description": "Know exactly what to do, in what order, at Ghana's government offices — from biometric identity and ORC incorporation to tax registration and municipal permits.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Corporate Governance & Compliance Specialists"
+  },
+  "steps": [
+    {
+      "id": "step-1-identity",
+      "step_number": 1,
+      "title": "Obtain Ghana Card for Directors & Shareholders",
+      "why": "The Office of the Registrar of Companies (ORC) and Ghana Revenue Authority (GRA) mandate Ghana Card biometric identity for all company directors, shareholders, and secretaries.",
+      "do_this_when": "Before starting company name reservation or registration filings.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-citizen",
+          "agency": "NIA",
+          "label": "National Identification Authority Portal (Citizens)",
+          "url": "https://nia.gov.gh/nia-online-registration-portal/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Online registration portal for biometric Ghana Card issuance."
+        },
+        {
+          "id": "opt-nia-foreigner",
+          "agency": "NIA",
+          "label": "Non-Citizen Ghana Card Application (Foreign Residents)",
+          "url": "https://nia.gov.gh/service/foreigner-identification-management-systems/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Foreign Identification Management Systems for non-citizen residents."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-name-search",
+      "step_number": 2,
+      "title": "Check & Reserve Company Name at ORC",
+      "why": "Confirms your proposed name does not infringe existing trademarks or registered entities under the Companies Act 2019 (Act 992) and reserves it for 30 days.",
+      "do_this_when": "Once you have selected 2-3 candidate business names and prepared director IDs.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-orc-name-search",
+          "agency": "ORC",
+          "label": "Company Name Search and Reservation Portal",
+          "url": "https://www.orc.gov.gh/service-name-search.php",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal to check business name availability and reserve it."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-orc-registration",
+      "step_number": 3,
+      "title": "Submit Business Registration Pack to ORC",
+      "why": "Formally registers the company entity, registers company regulations and authorized shares, and yields your Certificate of Incorporation.",
+      "do_this_when": "Immediately after your name reservation is approved.",
+      "optional": false,
+      "condition_tag": "entity_type",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-orc-form-3-ltd",
+          "agency": "ORC",
+          "label": "Company Registration Form 3 (Private Limited Company)",
+          "url": "https://www.brr.gov.gh/acc/registry/docs/RGD-Revised%20Form%203-005.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Standard incorporation pack for a private company limited by shares."
+        },
+        {
+          "id": "opt-orc-form-a-sole-prop",
+          "agency": "ORC",
+          "label": "Business Name Registration Form A (Sole Proprietorship)",
+          "url": "https://orc.gov.gh/service/business-registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Sole proprietor / individual business name registration."
+        },
+        {
+          "id": "opt-orc-form-3b-guarantee",
+          "agency": "ORC",
+          "label": "Company Registration Form 3B (Company Limited by Guarantee / NGO)",
+          "url": "https://www.brr.gov.gh/acc/registry/docs/eForm%203B-CLG-Registration.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Non-profit organisations, charities, and trade associations."
+        },
+        {
+          "id": "opt-orc-external-company",
+          "agency": "ORC",
+          "label": "External Company Registration (Branch Office)",
+          "url": "https://orc.gov.gh/service/external-company/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Branch office established by an existing foreign entity."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-beneficial-ownership",
+      "step_number": 4,
+      "title": "File Beneficial Ownership Declaration",
+      "why": "Mandated by the Companies Act 2019 to disclose natural persons holding 5% or more equity, voting rights, or control, preventing undisclosed shadow ownership.",
+      "do_this_when": "Filed alongside the incorporation pack at ORC.",
+      "optional": false,
+      "condition_tag": "company_only",
+      "choose": "all",
+      "options": [
+        {
+          "id": "opt-orc-bo-declaration",
+          "agency": "ORC",
+          "label": "ORC Beneficial Ownership Declaration Filing",
+          "url": "https://orc.gov.gh/forms.php",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Official forms repository for Beneficial Ownership declaration documents."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-gra-tax",
+      "step_number": 5,
+      "title": "Register on GRA Taxpayers Portal",
+      "why": "Activates company corporate income tax file, confirms company TIN, and links online filing for monthly returns and withholding taxes.",
+      "do_this_when": "Immediately following receipt of Certificate of Incorporation.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "all",
+      "options": [
+        {
+          "id": "opt-gra-taxpayers-portal",
+          "agency": "GRA",
+          "label": "GRA Taxpayers Portal",
+          "url": "https://taxpayersportal.com/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Self-service portal for company registration, e-returns, and tax assessment."
+        },
+        {
+          "id": "opt-gra-tin-registration",
+          "agency": "GRA",
+          "label": "GRA TIN Registration",
+          "url": "https://gra.gov.gh/tin/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official guidance on company and director Taxpayer Identification Numbers."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-6-ssnit",
+      "step_number": 6,
+      "title": "SSNIT Employer Registration",
+      "why": "Enrolls the company as an official employer under Act 766 to remit Tier 1 social security contributions for staff.",
+      "do_this_when": "Before or upon hiring your first paid staff member.",
+      "optional": true,
+      "condition_tag": "hiring_staff",
+      "choose": "all",
+      "options": [
+        {
+          "id": "opt-ssnit-employer",
+          "agency": "SSNIT",
+          "label": "SSNIT Employer Registration Portal",
+          "url": "https://www.ssnit.org.gh/become-an-employer/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Requirements and registration for new corporate employers."
+        },
+        {
+          "id": "opt-ssnit-employee-pack",
+          "agency": "SSNIT",
+          "label": "SSNIT Employee Enrolment Form (ISS1A)",
+          "url": "https://ssnit.org.gh/wp-content/uploads/2024/04/ISS1A.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official enrollment form for workers holding a Ghana Card."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-7-gipc",
+      "step_number": 7,
+      "title": "GIPC Registration (Foreign Equity Participation)",
+      "why": "Mandatory under the GIPC Act 2013 (Act 865) for enterprises with foreign shareholding to satisfy minimum equity capital and qualify for expatriate quotas and incentives.",
+      "do_this_when": "After ORC incorporation if any shareholder or partner is non-Ghanaian.",
+      "optional": true,
+      "condition_tag": "foreign_shareholders",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gipc-registration",
+          "agency": "GIPC",
+          "label": "GIPC Investment Registration Portal",
+          "url": "https://gipc.gov.gh/gipc-registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Application portal for foreign investment enterprise registration."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-8-bop",
+      "step_number": 8,
+      "title": "Obtain Municipal Business Operating Permit (BOP)",
+      "why": "Metropolitan, Municipal, and District Assemblies (MMDAs) mandate an annual permit to conduct business from physical premises in their jurisdiction.",
+      "do_this_when": "Once your physical office, shop, or desk space in Ghana has been secured.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-ama-bop",
+          "agency": "AMA",
+          "label": "Accra Metropolitan Assembly Business Operating Permit Guidelines",
+          "url": "https://ama.gov.gh/doc/permitting-guidelines.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official permitting guidelines and rate categories for operating in Accra."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

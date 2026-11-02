@@ -1,0 +1,143 @@
+{
+  "id": "enterprise-support-and-free-zones",
+  "title": "SME Grants, Free Zones & Intellectual Property",
+  "description": "The sequential roadmap for scaling enterprises—securing GEA government business development grants, Ghana Free Zones export tax holidays, Ghana Tourism Authority licences, and Copyright Office registrations.",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Trade Incentives & Intellectual Property Advisory"
+  },
+  "steps": [
+    {
+      "id": "step-1-gea-sme-grants",
+      "step_number": 1,
+      "title": "Apply for GEA Enterprise Development Grants & Funding",
+      "why": "The Ghana Enterprises Agency (GEA) provides competitive matching grants, technical capacity building, and soft loans for eligible micro, small, and medium Ghanaian enterprises.",
+      "do_this_when": "When scaling business operations, upgrading machinery, or seeking grant funding.",
+      "optional": true,
+      "condition_tag": "sme_grants",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gea-grants",
+          "agency": "GEA",
+          "label": "GEA Business Support & Grants Eligibility Portal",
+          "url": "https://gea.gov.gh/grants/eligibility/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal for enterprise support grants and eligibility criteria."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-gfza-free-zones",
+      "step_number": 2,
+      "title": "Apply for Ghana Free Zones Export Licence",
+      "why": "Enterprises exporting at least 70% of production qualify under Act 504 for a 10-year corporate tax holiday, zero customs duty on imported machinery, and 100% foreign ownership guarantees.",
+      "do_this_when": "When establishing export-oriented manufacturing, processing, or service entities.",
+      "optional": true,
+      "condition_tag": "free_zones_export",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gfza-licence",
+          "agency": "GFZA",
+          "label": "Ghana Free Zones Authority Licence Application",
+          "url": "https://gfza.gov.gh/license-application/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Application portal for free zone enterprise status and investment incentives."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-gta-tourism",
+      "step_number": 3,
+      "title": "Ghana Tourism Authority (GTA) Enterprise Registration",
+      "why": "Hotels, guesthouses, restaurants, tour operators, and travel agencies are legally required under the Tourism Act (Act 817) to be inspected and certified by GTA.",
+      "do_this_when": "Prior to opening hospitality or tourism facilities to guests.",
+      "optional": true,
+      "condition_tag": "hospitality_tourism",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gta-services",
+          "agency": "GTA",
+          "label": "GTA Tourism Enterprise Licensing & Services",
+          "url": "https://ghana.travel/services/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Classification requirements and licensing forms for accommodation and travel entities."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-orco-copyright",
+      "step_number": 4,
+      "title": "Register Creative Works at the Copyright Office (ORCO)",
+      "why": "Authors, musicians, software developers, and artists register original intellectual creations to establish statutory proof of authorship and protect moral/economic rights.",
+      "do_this_when": "Upon creating proprietary software, books, music, or audiovisual works.",
+      "optional": true,
+      "condition_tag": "copyright_ip",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-orco-reg",
+          "agency": "ORCO",
+          "label": "Copyright Office Registration Portal",
+          "url": "https://www.copyright.gov.gh/our-services/copyright-registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official procedures and fee structures for registering copyright works in Ghana."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-nita-digital-services",
+      "step_number": 5,
+      "title": "National Information Technology Agency (NITA) Registration",
+      "why": "IT service providers, datacenter operators, and cloud software firms contracting with the public sector or processing state data must register with NITA under Act 771.",
+      "do_this_when": "When delivering corporate digital platforms or IT services in Ghana.",
+      "optional": true,
+      "condition_tag": "it_digital_services",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nita-reg",
+          "agency": "NITA",
+          "label": "NITA Regulatory Services Portal",
+          "url": "https://support.nita.gov.gh/regulatory-services/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Guidelines for IT standards and digital services compliance."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

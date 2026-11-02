@@ -1,0 +1,161 @@
+{
+  "id": "get-a-ghana-passport",
+  "title": "Apply for or Renew a Ghanaian Passport",
+  "description": "The ordered journey to obtain or renew a Ghanaian biometric passport—from Ghana Card identity verification and birth certification to online application submission and biometric capture at a Passport Application Centre (PAC).",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Document Attestation & Application Support"
+  },
+  "steps": [
+    {
+      "id": "step-1-ghana-card",
+      "step_number": 1,
+      "title": "Verify National Identity (Ghana Card) with NIA",
+      "why": "The Ministry of Foreign Affairs mandates the National Biometric Ghana Card as the primary prerequisite to apply for or renew a Ghanaian passport.",
+      "do_this_when": "Before purchasing or initiating an online passport application.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-forms",
+          "agency": "NIA",
+          "label": "National Identification Authority Forms Portal",
+          "url": "https://nia.gov.gh/forms/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Verify or download Ghana Card application and personal data update forms."
+        },
+        {
+          "id": "opt-nia-update",
+          "agency": "NIA",
+          "label": "Ghana Card Data Update / Correction Service",
+          "url": "https://nia.gov.gh/service/personal-information-update-service/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Use if personal details or spelling differ from your birth certificate."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-birth-certificate",
+      "step_number": 2,
+      "title": "Obtain or Verify Biometric Birth Certificate with BDR",
+      "why": "A verifiable biometric birth certificate from the Births and Deaths Registry is mandatory proof of citizenship for first-time applicants.",
+      "do_this_when": "Before filling the online passport form if you do not already possess a biometric birth certificate.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-bdr-birth",
+          "agency": "BDR",
+          "label": "Births and Deaths Registry Online Registration",
+          "url": "https://bdr.gov.gh/birth-registration/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal for birth registration and certified birth certificate issuance."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-passport-portal",
+      "step_number": 3,
+      "title": "Complete Online Passport Application via MFARI",
+      "why": "The Ministry of Foreign Affairs and Regional Integration requires all passport processing, voucher payments, and center selections to be submitted through the official portal.",
+      "do_this_when": "Once you have your Ghana Card and birth certificate details ready.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-mfari-standard",
+          "agency": "MFARI",
+          "label": "Ghana Passport Application Portal (Standard Service)",
+          "url": "https://passport.mfa.gov.gh/how-it-works",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official step-by-step instructions and online account sign-up."
+        },
+        {
+          "id": "opt-mfari-manual",
+          "agency": "MFARI",
+          "label": "Manual Passport Application Form (PAC Submission)",
+          "url": "https://mfa.gov.gh/wp-content/uploads/2018/10/passport-form.pdf",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Direct downloadable PDF form for physical submission reference."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-biometric-capture",
+      "step_number": 4,
+      "title": "Attend Biometric Capture at Passport Application Centre (PAC)",
+      "why": "Biometric photographs and fingerprint capture must be recorded in person at your chosen Passport Application Centre (e.g., Accra, Kumasi, Tamale).",
+      "do_this_when": "On your scheduled appointment date following online form submission.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-mfari-portal-login",
+          "agency": "MFARI",
+          "label": "Passport Application Portal Dashboard",
+          "url": "https://passport.mfa.gov.gh/how-it-works",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Print your appointment slip and application confirmation."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-document-legalisation",
+      "step_number": 5,
+      "title": "Document Legalisation & Authentication for Foreign Use",
+      "why": "If travelling abroad for study, employment, or relocation, foreign embassies require Ghanaian certificates and police records to be authenticated by the Ministry of Foreign Affairs.",
+      "do_this_when": "After obtaining your passport or when preparing travel dossiers.",
+      "optional": true,
+      "condition_tag": "international_travel",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-mfari-legalisation",
+          "agency": "MFARI",
+          "label": "Ministry of Foreign Affairs Document Legalisation Desk",
+          "url": "https://mfa.gov.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Legalisation division portal for document authentication in Accra."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

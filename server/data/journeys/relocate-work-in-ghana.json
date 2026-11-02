@@ -1,0 +1,178 @@
+{
+  "id": "relocate-work-in-ghana",
+  "title": "Immigration: Live and Work in Ghana as a Non-Citizen",
+  "description": "The ordered immigration and expatriate pathway to secure entry visas, Non-Citizen biometric cards, employment authorisations, residence permits, and quota allocations from the Ghana Immigration Service (GIS).",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Immigration, Quota & Expatriate Mobility"
+  },
+  "steps": [
+    {
+      "id": "step-1-entry-visa",
+      "step_number": 1,
+      "title": "Secure Entry Visa or eVisa Pre-Approval",
+      "why": "Non-ECOWAS foreign nationals must obtain a valid single or multiple entry visa prior to departure or an approved emergency visa on arrival.",
+      "do_this_when": "At least 3-4 weeks prior to travelling to Ghana.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gis-evisa",
+          "agency": "GIS",
+          "label": "Official Ghana eVisa Application Portal",
+          "url": "https://evisa.immigration.gov.gh/register",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Direct electronic visa application portal for visitors and business delegates."
+        },
+        {
+          "id": "opt-gis-voa",
+          "agency": "GIS",
+          "label": "Emergency Entry Visa on Arrival Pre-Approval",
+          "url": "https://gis.gov.gh/service/emergency-entry-visa/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Sponsor-submitted application for entry clearance at Kotoka International Airport."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-non-citizen-card",
+      "step_number": 2,
+      "title": "Enroll for Non-Citizen Ghana Card (FIMS)",
+      "why": "The Foreigner Identification Management System (FIMS) card is legally required for all non-citizens resident in Ghana for opening bank accounts, tax filings, and obtaining residence permits.",
+      "do_this_when": "Immediately upon arrival in Ghana or before applying for immigration permits.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-non-citizen",
+          "agency": "NIA",
+          "label": "Non-Citizen Ghana Card Registration (FIMS)",
+          "url": "https://nia.gov.gh/service/foreigner-identification-management-systems/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Mandatory biometric identification for all resident non-citizens."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-work-permit",
+      "step_number": 3,
+      "title": "Apply for Work Permit Authorisation",
+      "why": "Under Immigration Act 2000 (Act 573), non-citizens cannot engage in employment or business without a work permit sponsored by an incorporated Ghanaian entity.",
+      "do_this_when": "Sponsored by your hiring entity before commencement of duties.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gis-work-permit",
+          "agency": "GIS",
+          "label": "Ghana Immigration Service Work Permit Division",
+          "url": "https://gis.gov.gh/service/work-and-residence-permit-companies/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Requirements for corporate work authorisations and employment contracts."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-residence-permit",
+      "step_number": 4,
+      "title": "Submit Residence Permit Application",
+      "why": "Authorises the foreign national to reside lawfully in Ghana for an initial duration of 1 to 4 years, subject to renewal.",
+      "do_this_when": "Following grant of the work permit or alongside company quota approvals.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gis-residence",
+          "agency": "GIS",
+          "label": "Ghana Immigration Service Residence Permits",
+          "url": "https://gis.gov.gh/permits/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Official permits portal for residence endorsements."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-immigrant-quota",
+      "step_number": 5,
+      "title": "Expatriate Immigrant Quota Allocation",
+      "why": "Enterprises with foreign capital registered under GIPC or Ministry of the Interior require automatic quota slots to place foreign directors and technical executives.",
+      "do_this_when": "When establishing foreign company leadership in Ghana.",
+      "optional": true,
+      "condition_tag": "corporate_quota",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gis-quota",
+          "agency": "GIS",
+          "label": "Immigrant Quota Allocation Services",
+          "url": "https://gis.gov.gh/service/work-and-residence-permit-missionaries-ngos-immigrant-quota-gipc-shareholders/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Expatriate quota allocations linked to GIPC and corporate investments."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-6-dependant-permit",
+      "step_number": 6,
+      "title": "Dependant Residence Permit (Spouse & Children)",
+      "why": "Allows legal entry, residence, and schooling for spouses and children under 18 linked to the primary work permit holder.",
+      "do_this_when": "When relocating family dependents to Ghana.",
+      "optional": true,
+      "condition_tag": "has_dependents",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gis-dependant",
+          "agency": "GIS",
+          "label": "Dependant Residence Permit Application",
+          "url": "https://gis.gov.gh/service/residence-permit-dependant/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Requirements for proof of kinship, marriage certificates, and medical examinations."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}

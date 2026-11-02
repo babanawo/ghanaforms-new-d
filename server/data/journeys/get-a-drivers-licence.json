@@ -1,0 +1,195 @@
+{
+  "id": "get-a-drivers-licence",
+  "title": "Get a Driver's Licence & Register a Vehicle",
+  "description": "The sequential compliance steps to obtain a Ghanaian driver's licence, register motor vehicles, and obtain statutory roadworthiness inspection certificates at the Driver and Vehicle Licensing Authority (DVLA).",
+  "status": "DRAFT_NOT_REVIEWED",
+  "last_reviewed": null,
+  "consultant": {
+    "name": "Babanawo Consults",
+    "specialty": "Ghana Regulatory & Automotive Liaison"
+  },
+  "steps": [
+    {
+      "id": "step-1-ghana-card-dvla",
+      "step_number": 1,
+      "title": "Biometric Identity Verification with NIA",
+      "why": "The DVLA mandates that all applicants for new driver's licences, licence upgrades, and vehicle registrations must link an active Ghana Card.",
+      "do_this_when": "Before booking any driver's training course or registering a vehicle.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nia-portal-dvla",
+          "agency": "NIA",
+          "label": "National Identification Authority Portal",
+          "url": "https://nia.gov.gh/forms/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Verify your biometric national identification before DVLA appointments."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-2-dvla-licence",
+      "step_number": 2,
+      "title": "Apply for Driver's Licence & Schedule CBT Exam",
+      "why": "All new drivers must undergo eye screening, computerized theory testing (CBT), and an in-traffic practical driving test administered by DVLA examiners.",
+      "do_this_when": "After completing mandatory certified driving school hours.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-dvla-online",
+          "agency": "DVLA",
+          "label": "DVLA Online Services Portal",
+          "url": "https://service.dvla.gov.gh/",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Official portal for driver's licence application, appointment booking, and renewal."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-3-vehicle-registration",
+      "step_number": 3,
+      "title": "Complete Vehicle Registration & Plate Allocation",
+      "why": "All imported and newly purchased vehicles must be formally registered and assigned official Ghanaian number plates and logbooks (Form V).",
+      "do_this_when": "Upon clearing vehicle customs at port or acquiring a new vehicle.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-dvla-veh-reg",
+          "agency": "DVLA",
+          "label": "DVLA Vehicle Registration Services",
+          "url": "https://www.dvla.gov.gh/services",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Guidelines and requirements for vehicle registration and number plate issuance."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-4-roadworthiness",
+      "step_number": 4,
+      "title": "Undergo Roadworthiness Inspection",
+      "why": "Statutory inspection to ensure vehicles meet safety and emissions standards; roadworthiness decals must be renewed annually (or biannually for commercial transport).",
+      "do_this_when": "Immediately following vehicle registration or upon annual expiry.",
+      "optional": false,
+      "condition_tag": null,
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-dvla-roadworthy",
+          "agency": "DVLA",
+          "label": "Roadworthiness Certificate Inspection",
+          "url": "https://www.dvla.gov.gh/services",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Checklist for physical and computerized vehicle inspection centers."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-5-ownership-transfer",
+      "step_number": 5,
+      "title": "Vehicle Ownership Transfer (Purchasing Used Vehicles)",
+      "why": "Legally transfers title and liability from previous owner to buyer to update national vehicle records.",
+      "do_this_when": "When purchasing a pre-owned vehicle registered in Ghana.",
+      "optional": true,
+      "condition_tag": "pre_owned_vehicle",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-dvla-transfer",
+          "agency": "DVLA",
+          "label": "DVLA Vehicle Ownership Transfer Service",
+          "url": "https://www.dvla.gov.gh/services",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Procedure for buyer and seller appearance and logbook endorsement."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-6-nrsa-permits",
+      "step_number": 6,
+      "title": "National Road Safety Authority (NRSA) Training Accreditation",
+      "why": "Regulates commercial driving schools, road safety transport operators, and driver training certification under Act 993.",
+      "do_this_when": "When registering a driving school or commercial transport fleet.",
+      "optional": true,
+      "condition_tag": "commercial_transport",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-nrsa-portal",
+          "agency": "NRSA",
+          "label": "National Road Safety Authority Portal",
+          "url": "https://nrsa.gov.gh/",
+          "seed_link_status": "homepage_only",
+          "verified_at": null,
+          "notes": "Guidelines for driver training schools and road safety operator permits."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    },
+    {
+      "id": "step-7-gpha-port-clearance",
+      "step_number": 7,
+      "title": "GPHA Port Access & Vehicle Cargo Clearance",
+      "why": "Vehicles imported via Tema or Takoradi ports must obtain port security clearance, berth gate passes, and GPHA terminal release.",
+      "do_this_when": "When importing vehicles by shipping container or roll-on/roll-off (RoRo).",
+      "optional": true,
+      "condition_tag": "imported_vehicle",
+      "choose": "one",
+      "options": [
+        {
+          "id": "opt-gpha-clearance",
+          "agency": "GPHA",
+          "label": "Ghana Ports and Harbours Authority Services",
+          "url": "https://www.ghanaports.gov.gh/page/index/9/KWVX9CGJ/Services",
+          "seed_link_status": "deep",
+          "verified_at": null,
+          "notes": "Port entry permits, terminal tariff clearance, and cargo release."
+        }
+      ],
+      "documents_needed": null,
+      "typical_cost": null,
+      "typical_time": null,
+      "common_mistakes": null,
+      "expert_reviewed": false
+    }
+  ]
+}
